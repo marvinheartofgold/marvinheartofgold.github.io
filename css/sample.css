@@ -1,0 +1,289 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+/* Navbar container 
+.navbar {
+  overflow: hidden;
+  background-color: cyan;
+  font-family: Arial;
+}
+*/
+
+/* Links inside the navbar 
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar.navbar-nav.nav-item a {
+  color: white;
+}  */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/* The dropdown container 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+*/
+
+/* Dropdown button 
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones 
+  margin: 0; /* Important for vertical align on mobile phones */
+/*
+}
+*/
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  color: white;
+}
+
+/* Dropdown content (hidden by default) 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+*/
+
+/* Links inside the dropdown */
+.dropdown.dropdown-menu.dropdown-item a {
+  float: none;
+  color: white;
+  background-color: inherit;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+/* Add a grey background color to dropdown links on hover 
+.dropdown-item a:hover {
+  background-color: #ddd;
+}
+*/
+/* Show the dropdown menu on hover 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #000 !important;
+}
+
+.ntable-striped tbody tr:nth-of-type(odd) {
+  background-color: RGB(179,214,252);
+}
+
+.ntable-striped tbody tr:nth-of-type(even) {
+  background-color: RGB(104,173,248);
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: RGB(95,75,139) !important;
+}
+
+.btn-reverse-pri, .btn-reverse-pri:hover, .btn-reverse-pri:active, .btn-reverse-pri:visited {
+  background-color: white;
+  border-color: RGB(95,75,139); 
+  color: RGB(95,75,139);
+  border-width: 2px;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+}
+
+.nomikos-bg-1, /* light blue */
+.nomikos-bg-1.list-group-item-action:hover,
+.nomikos-bg-1.list-group-item-action.active, 
+.nomikos-bg-1.list-group-item-action:focus {
+  color: black;
+  background-color: RGB(179,214,252);
+}
+
+.nomikos-bg-2, /* medium blue */
+.nomikos-bg-2.list-group-item-action:hover,
+.nomikos-bg-2.list-group-item-action.active, 
+.nomikos-bg-2.list-group-item-action:focus {
+  color: black;
+  background-color: RGB(104,173,248);
+}
+
+.nomikos-bg-3, /* dark blue */
+.nomikos-bg-3.list-group-item-action:hover,
+.nomikos-bg-3.list-group-item-action.active, 
+.nomikos-bg-3.list-group-item-action:focus {
+  color: white;
+  background-color: RGB(10,94,187);
+}
+
+.nomikos-bg-4, /* purple */
+.nomikos-bg-4.list-group-item-action:hover,
+.nomikos-bg-4.list-group-item-action.active, 
+.nomikos-bg-4.list-group-item-action:focus {
+  color: white;
+  background-color: RGB(95,75,139);
+}
+
+.nomikos-bg-5, /* light yellow */
+.nomikos-bg-5.list-group-item-action:hover,
+.nomikos-bg-5.list-group-item-action.active, 
+.nomikos-bg-5.list-group-item-action:focus {
+  color: black;
+  background-color: RGB(255,238,190);
+}
+
+.nomikos-bg-6, /* dark yellow */
+.nomikos-bg-6.list-group-item-action:hover,
+.nomikos-bg-6.list-group-item-action.active, 
+.nomikos-bg-6.list-group-item-action:focus {
+  color: black;
+  background-color: RGB(255,238,120);
+}
+
+.nomikos-text-1 {
+  color: RGB(179,214,252);
+}
+
+.nomikos-text-2 {
+  color: RGB(104,173,248);
+}
+
+.nomikos-text-3 {
+  color: RGB(10,94,187);
+}
+
+.nomikos-text-4 {
+  color: RGB(95,75,139);
+}
+
+.nomikos-row-1 {
+  color: black;
+  background-color: RGB(192,221,252);
+}
+
+.nomikos-row-2 {
+  color: black;
+  background-color: RGB(155,201,250);
+}
+
+.nomikos-row-3 {
+  color: black;
+  background-color: RGB(110,176,249);
+}
+
+.nomikos-row-4 {
+  color: black;
+  background-color: RGB(62,149,246);
+}
+
+.nomikos-row-5 {
+  color: black;
+  background-color: RGB(11,116,232);
+}
+
+.nomikos-row-6 {
+  color: black;
+  background-color: RGB(9,97,195);
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  margin: 3px;
+  border-radius: 50%;
+  opacity: 1.0;
+  background-color: orange;
+}
+
+.carousel-indicators .active {
+  background-color: red;
+}
+
+/* Black arrows
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+*/
+
+/* fill='%23ff0000'=red '%23000'=black '%23fff'=white */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+ 
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* Ticker tape */
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+
+.tcontainer{
+  width: 100%;
+  overflow: hidden;
+}
+
+.ticker-wrap {
+  width: 100%;
+  padding-left: 100%;
+  background-color: RGB(10,94,187);
+  box-sizing: content-box
+}
+
+.ticker-move {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 30s;
+}
+
+.ticker-item {
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 0 2rem;
+  color: white;
+}
+
+.ticker-move:hover{
+  animation-play-state: paused;
+}
